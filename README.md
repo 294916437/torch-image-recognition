@@ -5,7 +5,8 @@ Several advanced training programs about deep learning and image recognition,whi
 ## local running environment
 
 - anaconda python 310
-- CUDA Tech(test.py in root dir is used to checkout your environment,which output would be like below or more advanced device)
+- CUDA Tech :
+  test.py in root dir is used to checkout your environment,which output would be like below or more advanced devices
   ```
     2.0.1+cu117
     11.7
@@ -13,6 +14,7 @@ Several advanced training programs about deep learning and image recognition,whi
     1
     NVIDIA GeForce RTX 3050 Laptop GPU
   ```
+- WIN11 OS
 
 #### packages version
 
@@ -57,6 +59,8 @@ matchimage/
 #### dataset
 
 **dataset dir structure**
+
+```
 data/
 └── Medicine/
 ├── train/
@@ -70,9 +74,13 @@ data/
 ├── 三七/
 │ └── ...
 └── ...
+```
+
 **links of dataset**
-[cifar10 & cifar-100-](https://www.cs.toronto.edu/~kriz/cifar.html)
-[Chinese traditional medicine](https://www.kaggle.com/datasets/yihengyan111/chinese-herbal-medicine)
+
+- [cifar10 & cifar-100-](https://www.cs.toronto.edu/~kriz/cifar.html)
+
+- [Chinese traditional medicine](https://www.kaggle.com/datasets/yihengyan111/chinese-herbal-medicine)
 
 ## methods
 
