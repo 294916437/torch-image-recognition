@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch
+*.pth
+*.pt
+*.bin
+*.onnx
+
+# 数据集 - 保留目录结构但忽略文件内容
+data/**/*
+!data/**/
+!data/**/.gitkeep
+
+# 验证数据
+val-data/**/*
+!val-data/**/
+!val-data/**/.gitkeep
+
+# TensorBoard日志文件
+runs/
+events.out.tfevents*
+
+# 模型检查点和权重文件
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+
+# IDE配置
+.idea/*
+!.idea/.gitignore
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+
+# 日志文件
+*.log
+logs/
+
+# 环境变量文件
+.env
+.venv
+env/
+venv/
+ENV/
+
+# 预处理或中间数据文件
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.csv
+*.xlsx
+*.json
+!.vscode/launch.json
+
+# OS生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 特定项目文件 - 可能需要保留
+!/medicine_final_model.pth
+
+# 缓存文件
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+# models
+.medicine_final_model.pth
+# Jupyter notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb
+
+# 实验结果
+experiments/
