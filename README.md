@@ -54,8 +54,9 @@ matchimage/
 ├── medicine_best_model.pth # 训练的最佳模型
 └── README.md # 项目说明
 
-#### dataset structure
+#### dataset
 
+**dataset dir structure**
 data/
 └── Medicine/
 ├── train/
@@ -69,6 +70,9 @@ data/
 ├── 三七/
 │ └── ...
 └── ...
+**links of dataset**
+[cifar10 & cifar-100-](https://www.cs.toronto.edu/~kriz/cifar.html)
+[Chinese traditional medicine](https://www.kaggle.com/datasets/yihengyan111/chinese-herbal-medicine)
 
 ## methods
 
@@ -94,4 +98,5 @@ tensorboard --logdir=runs
 
 ## Thanks!!!
 
+- dataset opensource
 - pytorch teams
