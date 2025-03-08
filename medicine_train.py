@@ -383,15 +383,11 @@ if __name__ == '__main__':
                         
                         # 更新进度条
                         try:
-                            progress = (i + 1) / total_batches
-                            bar_length = 30
-                            filled_length = int(bar_length * progress)
-                            bar = '█' * filled_length + '▒' * (bar_length - filled_length)
                             current_acc = 100 * correct / total if total > 0 else 0
                             
-                            print(f"\r评估进度: |{bar}| {progress*100:.1f}% - 批次 {i+1}/{total_batches} - 当前准确率: {current_acc:.2f}%", end="")
+                            print(f"\r评估进度: 批次 {i+1}/{total_batches} - 当前准确率: {current_acc:.2f}%", end="")
                         except Exception as e:
-                            print(f"\n更新进度条时出错: {str(e)}")
+                            print(f"\n更新时出错: {str(e)}")
                         
                     except Exception as e:
                         print(f"\n处理评估批次 {i+1}/{total_batches} 时出错: {str(e)}")
