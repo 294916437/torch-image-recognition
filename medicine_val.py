@@ -183,6 +183,6 @@ def main():
         sys.exit(1)
 
 # 命令行运行示例如下
-# python medicine_val.py --image ./val-data/medicine/甘草_0.jpg --model medicine_final_model.pth
+# python medicine_val.py --image ./val-data/medicine/gancao_0.jpg --model medicine_final_model.pth
 if __name__ == "__main__":
     main()

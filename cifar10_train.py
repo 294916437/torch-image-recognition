@@ -13,7 +13,6 @@ from torch.utils.tensorboard import SummaryWriter
 
 # 指定使用 GPU 0
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # 确保使用 GPU 0
-
 # 1. 数据准备
 data_dir = './data'
 

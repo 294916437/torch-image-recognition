@@ -14,7 +14,7 @@ from torch.utils.tensorboard import SummaryWriter
 # 指定使用 GPU 0
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:128'
-# 启用 cuDNN 的自动调整算法以加速卷积操作
+# 启用 cuDNN 的自动调整算法以加速卷积操作++
 torch.backends.cudnn.benchmark = True
 torch.backends.cudnn.deterministic = False  # 使用非确定性算法以提高性能
 # 1. 数据准备函数添加异常处理

@@ -47,6 +47,7 @@ urllib3                 1.26.13
 
 ## program structure
 
+```
 matchimage/
 ├── data/ # 数据集文件夹
 │ └── Medicine/ # 中医药图像数据集
@@ -55,6 +56,7 @@ matchimage/
 ├── medicine_val.py # 验证与预测脚本
 ├── medicine_best_model.pth # 训练的最佳模型
 └── README.md # 项目说明
+```
 
 #### dataset
 
